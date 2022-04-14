@@ -51,14 +51,29 @@ main {
     text-decoration: underline;
 }
 
+.bloc p {
+    font-size: 20px;
+}
+
 .element {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .element > * {
     margin: 16px;
+}
+
+.element img {
+    border: 2px black solid;
+    margin: 16px;
+}
+
+.element > div {
+    display: flex;
+    flex-direction: row;
 }
 
 /*
@@ -109,7 +124,7 @@ Top
     justify-content: center;
 }
 
-#pfp > img {
+#pfp {
     border: 4px black solid;
     border-radius: 100%;
 }
@@ -121,9 +136,6 @@ Bio
 #bio {
     background-color: rgba(255, 20, 147, 0.5);
     border: 2px black solid;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     margin: 16px 5%;
     width: auto;
     height: auto;
@@ -136,9 +148,6 @@ Projects
 #projects {
     background: rgba(128, 128, 0, 0.5);
     border: 2px black solid;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     margin: 16px 5%;
     width: auto;
     height: auto;
