@@ -130,11 +130,6 @@ Menu
 
 .menu a {
     text-decoration: none;
-    color: black;
-}
-
-.menu a:visited {
-    color: black;
 }
 
 .menu li > a > div {
@@ -291,16 +286,32 @@ Misc
     flex-wrap: wrap;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .item-center {
     align-items: center;
 }
 
 .center {
-    align-items: center;
+    justify-content: center;
 }
 
 .around {
     justify-content: space-around;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.text-image {
+    display: flex;
 }
 
 .max-width {
@@ -347,6 +358,14 @@ Body
 
 .element > * {
     margin: 16px;
+}
+
+.margin-child > * {
+    margin: 16px;
+}
+
+.margin-child32 > * {
+    margin: 32px;
 }
 
 .element img {
@@ -408,10 +427,45 @@ Projects
 
 
 /*
+Formulaire
+*/
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+#form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    width: auto;
+}
+
+#form input, #form textarea {
+    margin: 16px 32px;
+    padding: 8px;
+}
+
+textarea {
+    width: 800px;
+    height: 100px;
+}
+
+#gmail {
+    background: url("../resources/images/gmail.png");
+    cursor: pointer;
+    border: none;
+    width: 48px;
+    height: 48px;
+}
+
+/*
 Responsive
 */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
 
     #burger {
         display: flex;
@@ -419,10 +473,24 @@ Responsive
 
     #menu-horizontal {
         display: none;
+    }
+
+    .text-image {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #a51s {
+        width: 500px;
+    }
+
+    textarea {
+        width: 300px;
+        height: 100px;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1180px) {
 
     #burger {
         display: none;
@@ -430,5 +498,19 @@ Responsive
 
     #menu-horizontal {
         display: flex;
+    }
+
+    .text-image {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    #a51s {
+        width: 900px;
+    }
+
+    textarea {
+        width: 800px;
+        height: 100px;
     }
 }
