@@ -26,8 +26,8 @@
                 </a>
             </li>
             <li>
-                <a>
-                    <div>Stage</div>
+                <a href="#internship">
+                    <div>Stages</div>
                 </a>
             </li>
             <li>
@@ -72,12 +72,12 @@
                 </a>
             </li>
             <li>
-                <a>
-                    <div>Stage</div>
+                <a href="#internship">
+                    <div>Stages</div>
                 </a>
             </li>
             <li>
-                <a>
+                <a href="#skills">
                     <div>Compétences</div>
                 </a>
             </li>
@@ -99,39 +99,55 @@
                  height="128px" width="128px"/>
             <div id="name-and-title">
                 <div id="name">Eliott Barbet</div>
-                <div id="title">Futur Software Engineer</div>
+                <div id="title">Futur Software Engineer et développeur Java</div>
             </div>
+            <img id="pfp" alt="photo" src="resources/images/eliott.png" width="128px" height="128px">
         </div>
         <div id="presentation">
             <p>
-                Bonjour, je m'appelle Eliott, j'ai 20 ans et je suis actuellement étudiant en informatique.
+                Je m'appelle Eliott Barbet, j'ai 20 ans et je suis actuellement étudiant en informatique.
             </p>
             <p>
                 Je suis né à Angers et j'y ai grandi durant mon enfance. J'y ai passé mon école primaire, mon
-                collège et mon lycée.
+                collège ainsi que mon lycée où j'ai pu passer mon BAC technologique <a
+                        href="https://www.onisep.fr/Choisir-mes-etudes/Au-lycee-au-CFA/Au-lycee-general-et-technologique/La-voie-technologique-en-premiere-et-terminale/Le-bac-STI2D-sciences-et-technologies-de-l-industrie-et-du-developpement-durable"
+                        target="_blank">Science Technique de l'Industrie</a> et du Développement Durable. C'est depuis
+                cette orientation que je j'ai fait mes études dans le technique.
             </p>
             <p>
                 Après le Baccalauréat, je suis allé étudier à l'IUT de Nantes où j'ai fait un DUT <a
-                        href="https://www.orientation.com/diplomes/dut-genie-electrique-et-informatique-industrielle">Génie
-                    Electric Informatique Industrielle</a>.
+                        href="https://www.orientation.com/diplomes/dut-genie-electrique-et-informatique-industrielle"
+                        target="_blank">Génie Electric Informatique Industrielle</a>. Une formation assez complète et
+                qui couvre de nombreux domaines de l'ingénierie industrielle, Énergie, Automatisme, Programmation
+                Embarquée, Réseaux, Supervision, etc...
             </p>
             <p>
-                Je suis ensuite parti dans le sud de la France, à Montpellier pour enchaîner sur une nouvelle année
-                d'étude.
-                Cette fois ci l'Année Spéciale Informatique, un genre de formation accélérée équivalente au DUT
-                Informatique
-                en une seule année au lieu de deux.
+                Malheureusement ça a été une année assez compliquée pour moi, car l'épidémie de la COVID-19 à
+                bouleverser la
+                vie à l'IUT, mais grâce à cela j'ai eu du temps pour commencer à développer mon premier projet
+                informatique.
+            </p>
+            <p> Je suis ensuite parti dans le sud de la France, à Montpellier pour enchaîner sur une nouvelle année
+                d'étude. Cette fois ci l'<a
+                        href="https://iut-charlemagne.univ-lorraine.fr/informatique/dut-informatique-en-annee-speciale/#:~:text=Le%20public,semaines%20de%20stage%20en%20entreprise."
+                        target="_blank">Année Spéciale Informatique</a>, une formation accélérée équivalente au DUT
+                Informatique en une seule année au lieu de deux.
+            </p>
+            <p>
+                Pour l'année prochaine, je continue mes études en école d'ingénieur informatique en alternance. La
+                spécialité n'est pas encore décidée, mais je pense choisir Software Engineering aux vues de ma
+                compétence en développement Back-End.
             </p>
         </div>
     </div>
     <div id="course" class="bloc">
         <h1>Formation</h1>
-
         <div>
             <h3>BAC STI2D - Spécialité SIN</h3>
             <div class="flex-row item-center margin-child">
                 <div>
-                    <img alt="Logo du lycée Saint Aubin La Salle" src="resources/images/sals.svg" width="64px" height="auto">
+                    <img alt="Logo du lycée Saint Aubin La Salle" src="resources/images/sals.svg" width="64px"
+                         height="auto">
                 </div>
                 <div>
                     <p>Lycée Saint Aubin la Salle - Angers</p>
@@ -170,26 +186,24 @@
 
         <div class="element">
             <h2>Reversi</h2>
-            <div>
-                <div class="text-image flex-row">
-                    <img class='border' alt="Reversi" src="resources/images/reversi.jpg" width="auto" height="256px"/>
-                    <div>
-                        <p>Le Reversi ou l'Othello est un jeu de société combinatoire abstrait opposant deux joueurs. Il
-                            se
-                            joue
-                            sur un tablier unicolore de 64 cases, 8 sur 8, appelé othellier. Les joueurs disposent de 64
-                            pions
-                            bicolores, noirs d'un côté et blancs de l'autre.
-                        </p>
-                        <p>
-                            Le but du jeu est de recouvrir le plus de cases possibles à l'aide d'une prise de pions
-                            assez
-                            particulière. Il suffit d'entourer un ou plusieurs pions adversaires dans toutes les
-                            directions
-                            par sa couleur afin de capturer des points. Le joueur qui en possède le plus à la fin de la
-                            partie gagne. Les égalités sont possibles.
-                        </p>
-                    </div>
+            <div class="text-image flex-row">
+                <img class='border' alt="Reversi" src="resources/images/reversi.jpg" width="auto" height="256px"/>
+                <div>
+                    <p>Le Reversi ou l'Othello est un jeu de société combinatoire abstrait opposant deux joueurs. Il
+                        se
+                        joue
+                        sur un tablier unicolore de 64 cases, 8 sur 8, appelé othellier. Les joueurs disposent de 64
+                        pions
+                        bicolores, noirs d'un côté et blancs de l'autre.
+                    </p>
+                    <p>
+                        Le but du jeu est de recouvrir le plus de cases possibles à l'aide d'une prise de pions
+                        assez
+                        particulière. Il suffit d'entourer un ou plusieurs pions adversaires dans toutes les
+                        directions
+                        par sa couleur afin de capturer des points. Le joueur qui en possède le plus à la fin de la
+                        partie gagne. Les égalités sont possibles.
+                    </p>
                 </div>
             </div>
             <div class="flex-column max-width item-center">
@@ -262,20 +276,21 @@
 
         <div class="element">
             <h2>Amazon51</h2>
-            <div>
+            <div class="text-image item-center flex-row" style="gap: 0 64px">
                 <img src="resources/images/amazon51.png" alt="Logo Amazon51" height="128px" width="auto">
-            </div>
-            <div class="text-image flex-row">
                 <div>
                     <p>Amazon51 est un projet de site de vente en ligne réalisé dans le cadre universitaire. Le nom
                         n'est autre qu'un jeu de mot entre l'entreprise mondialement connue Amazon et la mystérieuse
                         Zone51 du Nevada.
                     </p>
-                    <p>L'objectif de ce projet consiste à la réalisation d'un site e-commerce avec un cahier des charges
-                        précis tel que la création d'un compte, la gestion d'un panier et d'une commande. Le site est
+                    <p>L'objectif de ce projet consiste à la réalisation d'un site e-commerce avec un cahier des
+                        charges
+                        précis tel que la création d'un compte, la gestion d'un panier et d'une commande. Le site
+                        est
                         programmé en PHP et repose sur une base de données MySQL</p>
                     <p>
-                        Le thème de Amazon51 est absolument aléatoire, on y trouve tout et n'importe quoi, des produits
+                        Le thème de Amazon51 est absolument aléatoire, on y trouve tout et n'importe quoi, des
+                        produits
                         ou choses introuvables et inexistant sur un vrai site de ventes en ligne.
                         Quelques clins d'œils sont cachés dans le site, des références à la technologie, Amazon ou
                         encore la programmation.
@@ -381,9 +396,69 @@
             </div>
         </div>
     </div>
-    <div id="leisure" class="bloc">
-        <h2>Mes passions :</h2>
+    <div id="internship" class="bloc">
+        <h2>Mes expériences professionnelles</h2>
+        <div class="element">
+            <h3>Stage Wordpress - Excelvente</h3>
+            <div class="flex-row item-center">
+                <div>
+                    <img alt="Logo de Excelvente" src="resources/images/excelvente.png" width="128px"/>
+                </div>
+                <div>
+                    <p>
+                        Excelvente est une entreprise spécialisée dans la vente directe auprès des particuliers pour le
+                        compte de grandes entreprises françaises telles que les fournisseurs d’énergie, les opérateurs
+                        téléphoniques ainsi que des groupes dans le domaine de l’assurance et de l’assistance
+                    </p>
+                    <p>
+                        Sa principale mission est de trouver des clients pour ces grands groupes, soit par ses
+                        partenaires
+                        d’entreprise qui a des commerciaux sur le terrain, soit par ces quelques vendeurs indépendants
+                        (VDI) directement lié à Exclevente.
+                    </p>
+                </div>
+            </div>
+            <div class="flex-row margin-child32 wrap center">
+                <div>
+                    <h3>Missions effectuées</h3>
+                    <ul>
+                        <li>Créer des sites Wordpress pour des sociétés partenaires distributrices</li>
+                        <li>Booster les performances des PC de la société</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Compétences développées</h3>
+                    <ul>
+                        <li>Développement Front-End HTML/CSS</li>
+                        <li>Utilisation du logiciel Wordpress</li>
+                        <li>Stratégie d'externalisation des entreprises</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="element">
+            <h3>Stage développement - Nameshield</h3>
+            <div class="flex-row item-center" style="gap: 0 64px">
+                <div>
+                    <img alt="Logo de Nameshield" src="resources/images/nameshield.png" height="64px">
+                </div>
+                <div>
+                    <p>
+                        Nameshield est le fournisseur français de référence en gestion et sécurisation des noms de
+                        domaine et services associés.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p><em>Ce stage commence le 7 juin 2021</em></p>
+                </div>
+            </div>
+        </div>
     </div>
+<!--    <div id="leisure" class="bloc">
+        <h2>Mes passions :</h2>
+    </div>-->
     <div id="skills" class="bloc">
         <h2>Mes compétences</h2>
         <div>
@@ -468,7 +543,10 @@
                     <label for="message">Message :</label>
                     <textarea id="message" name="message" required></textarea>
                     <!--                    <input type="hidden" name="_next" value="view/thankyou.html">-->
-                    <input type="submit" value="Envoyer">
+                    <div class="text-center">
+                        <input type="submit" value="Envoyer"
+                               style="background-color: rgba(30, 144, 255, .5); border-radius: 8px">
+                    </div>
                 </form>
             </div>
             <div>
