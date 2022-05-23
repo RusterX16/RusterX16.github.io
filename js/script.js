@@ -21,6 +21,7 @@ $(document).ready(function() {
         if(li.includes("open")) {
             $("#menu-vertical")
                 .css("right", "-160px")
+                .css("visibility", "hidden")
                 .css("transition-duration", ".5s")
             $(this)
                 .addClass("closed")
@@ -28,6 +29,7 @@ $(document).ready(function() {
         } else if(li.includes("closed")) {
             $("#menu-vertical")
                 .css("right", "0px")
+                .css("visibility", "visible")
                 .css("transition-duration", ".5s");
             $(this)
                 .addClass("open")

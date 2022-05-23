@@ -1,5 +1,9 @@
 
 K
 resources/images/github.svg,8\9\897694e75105dbf1273cc8bfad06694d9fb5eba6
-I
-resources/images/sals.svg,2\9\29d4dcf39a5cb6bb601de2d632c2a580f69058a7
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
+w
+G.idea/sonarlint/issuestore/4/9/496a238a6afa168dbaf6efd37bb459331589579c,6\e\6e9644ddf83ab52f39902ecdbfdf4118285ac40c
+w
+G.idea/sonarlint/issuestore/8/9/897694e75105dbf1273cc8bfad06694d9fb5eba6,4\a\4a5ff00df236e9237ac682ac96b2747877dae6c5
